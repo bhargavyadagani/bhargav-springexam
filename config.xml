@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xmlns:context="http://www.springframework.org/schema/context" 
+xmlns:p="http://www.springframework.org/schema/p" 
+xmlns:tx="http://www.springframework.org/schema/tx" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd 
+http://www.springframework.org/schema/context 
+http://www.springframework.org/schema/context/spring-context.xsd 
+http://www.springframework.org/schema/tx 
+http://www.springframework.org/schema/tx/spring-tx.xsd">  
+
+<bean id="delta" class="chip22.batch.question1">
+	<property name="name" value="bhargav"/>
+		<property name="section" value="A"/>
+		<property name="cname" value="sasi"/>
+		<property name="marks" value="89"/>
+	
+
+</bean>
+<bean id="de" class="chip22.batch.question2">
+<constructor-arg index="0" value="34"/>
+<constructor-arg index="1" value="bhargav"/>
+<constructor-arg index="2" value="Ece"/>
+<constructor-arg index="3" value="25000"/>
+
+</bean>
+<!--  <context:component-scan base-package="chip22.batch"></context:component-scan>-->
+ </beans>
